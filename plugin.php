@@ -5,7 +5,7 @@ common_include('plugins/campaignMonitor/newsletter/csrest_subscribers.php');
 class plugin_campaignMonitor
 {
 
-	function runFromCustomForm($data,$db,$fields,$formData)
+	function runFromCustomForm($fields,$formData)
 	{
 		foreach($fields as $fieldItem)
 		{
