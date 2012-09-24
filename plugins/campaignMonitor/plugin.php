@@ -23,7 +23,7 @@ class plugin_campaignMonitor
 	
 	function pushToServer($email,$name)
 	{
-		$wrap = new CS_REST_Subscribers('c92ba413fde76b3823c1cc9726a72f15', 'bd0fce03de47562ece19f1b2b1106ebd');
+		$wrap = new CS_REST_Subscribers('API KEY', 'API KEY');
 		$result = $wrap->add(array(
 			'EmailAddress' => $email,
 			'Name' => $name,
